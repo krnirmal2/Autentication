@@ -60,3 +60,7 @@ If you create your own UserDetailsService bean, there is no need to manually def
 But if you define 2 or more UserDetailsService beans, then u need to define your own Authenticationprovider. I made a mistake, as i don't realize I have another class that implements UserDetailsService interface and annotated with @service , which create a second UserDetailsService bean.
 
 ![img_6.png](img_6.png)
+
+
+Added Docker file to create image out of it 
+![1711996445848](image/NOTE/1711996445848.png)
